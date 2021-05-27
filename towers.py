@@ -6,4 +6,4 @@ def towers(n, start, end, middle):
         print("Move %i from tower %s to tower %s" % (n, start, end))
         towers(n-1, middle, end, start)
 
-towers(3, 'A', 'B', 'C')
+towers(3, 'A', 'C', 'B')
